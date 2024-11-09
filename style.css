@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(img/images.png);
+    animation: scrollBackground 10s linear infinite;
+}
+@keyframes scrollBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -100% 0;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px;
+}
+
+#adam {
+    flex: 1;
+    text-align: left;
+}
+
+#adam img#ciao {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.content {
+    flex: 2;
+    text-align: right;
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color:rgb(166, 0, 255);
+    font-family:pixel;
+    text-shadow: 0px 0px 10px rgb(166, 0, 255);
+}
+
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(166, 0, 255);
+    font-family: pixel;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    transition: font-size 100mss;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-family: pixel;
+}
+
+#ciao {
+    padding: 5px;
+    animation: spin 4s linear infinite;
+}
+
+#ciao:hover {
+    animation-duration: 1s;
+    transition: ease-in-out;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(img/Minecraft.ttf);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #adam {
+        text-align: center;
+    }
+
+    .content {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    a {
+        font-size: 1em;
+    }
+
+    a:hover {
+        font-size: 1.2em;
+    }
+}
+

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+}
+
+#gameArea {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/images.png");
+    background-size: auto;
+    background-repeat: repeat;
+    animation: scrollBackground 10s linear infinite;
+}
+@keyframes scrollBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -100% 0;
+    }
+}
+.meteor {
+    border-radius: 50%;
+}
+
+.spinning {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+#message {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(166, 0, 255);
+    font-family: pixel;
+   
+}
+#timer {
+    font-size: 30px;
+    
+    text-shadow: 0px 0px 10px rgb(166, 0, 255);
+    font-family: pixel;
+   
+
+    
+   
+}
+@font-face {
+    font-family: pixel;
+    src: url(img/Minecraft.ttf);
+}
