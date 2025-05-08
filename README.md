@@ -21,7 +21,7 @@ I contributi sono benvenuti! Sentiti libero di inviare una pull request. Assicur
 
 ## Licenza
 
-Questo progetto è distribuito sotto licenza MIT. Consulta il file `LICENSE` per maggiori dettagli.
+Nessuno 😶‍🌫️💀☠️😵🐒
 
 ## Contatti
 
