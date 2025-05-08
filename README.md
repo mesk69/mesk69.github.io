@@ -1,6 +1,6 @@
 # Mesk.github.io
 
-Benvenuto nel repository di [mesk.github.io](https://mesk.github.io), un sito web personale o di progetto!
+Benvenuto nel repository di mesk69.github.io, un sito web personale o di progetto!
 
 ## Informazioni
 
