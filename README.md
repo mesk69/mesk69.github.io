@@ -15,20 +15,6 @@ Questo repository contiene il codice sorgente per un sito web statico costruito 
 - Layout facile da navigare.
 - Personalizzabile ed espandibile per futuri miglioramenti.
 
-## Come iniziare
-
-Per eseguire o modificare questo progetto, segui questi passi:
-
-1. Clona il repository:
-   ```bash
-   git clone https://github.com/meskrebooted/mesk.github.io.git
-   ```
-2. Accedi alla directory del progetto:
-   ```bash
-   cd mesk.github.io
-   ```
-3. Apri il file `index.html` nel tuo browser preferito per visualizzare il sito web.
-
 ## Contributi
 
 I contributi sono benvenuti! Sentiti libero di inviare una pull request. Assicurati che tutte le modifiche siano ben documentate e testate.
