@@ -27,3 +27,4 @@ I contributi sono benvenuti! Sentiti libero di inviare una pull request. Assicur
 
 Per domande o suggerimenti, sentiti libero di contattarmi:
 - GitHub: [meskrebooted](https://github.com/meskrebooted)
+- 🐍
