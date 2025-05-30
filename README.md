@@ -10,7 +10,6 @@ Mesk's Vault è un sito molto bello che ho fatto mentre mi annoiavo.
   <br>
 </div>
 
-
 ## Funzionalità
 
 Bel sito per sviluppare le mie conoscenze in HTML, CSS, JAVASCRIPT.
