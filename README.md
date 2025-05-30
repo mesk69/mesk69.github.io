@@ -5,7 +5,7 @@ Benvenuto nel repository di mesk69.github.io, un sito web personale o di progett
 ## Informazioni
 
 Questo repository contiene il codice sorgente per un sito web statico costruito utilizzando:
-- **JavaScript**: Per interazioni dinamiche e funzionalità.
+- **JavaScript**: Per interazioni dinamiche e funzionalità.  
 - **CSS**: Per lo stile e il layout.
 - **HTML**: Per la struttura e il contenuto.
 
