@@ -1,23 +1,24 @@
 # Mesk's Vault
 
-Benvenuto nel repository di mesk69.github.io, un sito web personale o di progetto!
+Mesk's Vault è un sito molto bello che ho fatto mentre mi annoiavo.
+
 
 ## Informazioni
 
-Questo repository contiene il codice sorgente per un sito web statico costruito utilizzando:
-- **JavaScript**: Per interazioni dinamiche e funzionalità.  
-- **CSS**: Per lo stile e il layout.
-- **HTML**: Per la struttura e il contenuto.
+<div align="center">
+  <img src="https://github.com/meskrebooted/MesksVault/blob/main/img/adam2.jpg?raw=true" width="100" alt="Sono io 😎😎" />
+  <br>
+</div>
+
 
 ## Funzionalità
 
-- Design responsivo per vari dispositivi.
-- Layout facile da navigare.
-- Personalizzabile ed espandibile per futuri miglioramenti.
+Bel sito per sviluppare le mie conoscenze in HTML, CSS, JAVASCRIPT.
 
 ## Contributi
 
-I contributi sono benvenuti! Sentiti libero di inviare una pull request. Assicurati che tutte le modifiche siano ben documentate e testate.
+- Provate a copiarmi vi taglio la testa.
+  Giuro sul fall.
 
 ## Licenza
 
@@ -25,6 +26,5 @@ I contributi sono benvenuti! Sentiti libero di inviare una pull request. Assicur
 
 ## Contatti
 
-Per domande o suggerimenti, sentiti libero di contattarmi:
 - GitHub: [meskrebooted](https://github.com/meskrebooted)
 - 🐍
