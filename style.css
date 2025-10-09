@@ -83,9 +83,9 @@ a:hover {
 }
 #rampo
 {
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
-    color:rgb(166, 0, 255) !important;
+    color: rgb(166, 0, 255);
     font-family: pixel;
     text-shadow: 0px 0px 0px rgb(255, 255, 255);
 }
