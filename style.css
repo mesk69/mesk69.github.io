@@ -93,11 +93,12 @@ a:hover {
 #ciao {
     padding: 5px;
     animation: spin 4s linear infinite;
+    transition: animation-duration 0.2s linear;
 }
 
 #ciao:hover {
     animation-duration: 1s;
-    transition: ease-in-out;
+    animation-timing-function: linear;
 }
 
 @keyframes spin {
