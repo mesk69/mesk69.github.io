@@ -16,7 +16,7 @@ Bel sito per sviluppare le mie conoscenze in HTML, CSS, JAVASCRIPT.
 
 ## Contributi
 
-- Provate a copiarmi vi taglio la testa.
+- Provate a copiarmi e vi brucio casa.
   Giuro sul fall.
 
 ## Licenza

@@ -1,4 +1,154 @@
+/* Definizione dell'animazione */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Applica l'animazione agli elementi */
+h1, p, h2 a, h2 span {
+    animation: slideIn 1s ease-out forwards;
+    opacity: 0; /* Nascondi inizialmente */
+}
+
+/* Ritardo per ogni elemento */
+h1 {
+    animation-delay: 0.5s;
+}
+
+p#mes {
+    animation-delay: 1s;
+}
+
+h2 a:nth-of-type(1) {
+    animation-delay: 1.5s;
+}
+
+h2 a:nth-of-type(2) {
+    animation-delay: 2s;
+}
+
+h2 a:nth-of-type(3) {
+    animation-delay: 2.5s;
+}/* Definizione dell'animazione */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Applica l'animazione agli elementi */
+h1, p, h2 a, h2 span {
+    animation: slideIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    opacity: 0; /* Nascondi inizialmente */
+}
+
+/* Ritardo per ogni elemento */
+h1 {
+    animation-delay: 0.2s;
+}
 body {
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden; /* Prevents body from changing size */
+}
+p#mes {
+    animation-delay: 0.4s;
+}
+
+h2 a:nth-of-type(1) {
+    animation-delay: 0.6s;
+}
+
+h2 a:nth-of-type(2) {
+    animation-delay: 0.8s;
+}
+
+h2 a:nth-of-type(3) {
+    animation-delay: 1s;
+}
+
+h2 span#rampo {
+    animation-delay: 1.2s;
+}
+
+h2 a:nth-of-type(4) {
+    animation-delay: 1.4s;
+}
+
+h2 span#rampo {
+    animation-delay: 3s;
+}
+
+h2 a:nth-of-type(4) {
+    animation-delay: 3.5s;
+}/* Definizione dell'animazione */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Applica l'animazione agli elementi */
+h1, p, h2 a, h2 span {
+    animation: slideIn 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    opacity: 0; /* Nascondi inizialmente */
+}
+
+/* Ritardo progressivo per ogni elemento */
+h1 {
+    animation-delay: 0.1s;
+}
+
+p#mes {
+    animation-delay: 0.2s;
+}
+
+h2 a:nth-of-type(1) {
+    animation-delay: 0.3s;
+}
+
+h2 a:nth-of-type(2) {
+    animation-delay: 0.4s;
+}
+
+h2 a:nth-of-type(3) {
+    animation-delay: 0.5s;
+}
+
+h2 span#rampo {
+    animation-delay: 0.6s;
+}
+
+h2 a:nth-of-type(4) {
+    animation-delay: 0.7s;
+}
+
+h2 span#rampo {
+    animation-delay: 0.7s;
+}
+
+h2 a:nth-of-type(4) {
+    animation-delay: 0.7s;
+}body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +167,6 @@ body {
         background-position: -100% 0;
     }
 }
-
 .container {
     display: flex;
     flex-direction: row;
@@ -55,7 +204,6 @@ h1 {
 h2 {
     font-size: 1.2em;
     text-align: center;
-    text-shadow: 0px 0px 10px rgb(166, 0, 255);
     font-family: pixel;
     background-repeat: no-repeat;
     background-position: center;
@@ -68,6 +216,7 @@ a {
     font-size: 1.2em;
     transition: font-size 100mss;
     text-decoration: none;
+    text-shadow: 0px 0px 10px rgb(166, 0, 255);
 }
 
 a:hover {
@@ -75,21 +224,30 @@ a:hover {
     color:rgb(166, 0, 255);
 }
 
-p {
+#mes {
     font-size: 1.5em;
     text-align: center;
     color: white;
     font-family: pixel;
 }
+#rampo
+{
+    font-size: 2em;
+    text-align: center;
+    color:rgb(166, 0, 255);
+    font-family: pixel;
+    text-shadow: 0px 0px 10px rgb(166, 0, 255);
+}
 
 #ciao {
     padding: 5px;
     animation: spin 4s linear infinite;
+    transition: animation-duration 0.2s linear;
 }
 
 #ciao:hover {
-    animation-duration: 1s;
-    transition: ease-in-out;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
 }
 
 @keyframes spin {
